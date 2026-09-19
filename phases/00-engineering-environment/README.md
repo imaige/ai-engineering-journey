@@ -1,12 +1,15 @@
 # PHASE 0 — Engineering Environment
 
-Status: **IN_PROGRESS**
+Status: **PASSED**
+
+Mastery gate: **91/100 — PASSED**
+Completed: **2026-09-20**
 
 ## Objective
 
 Build a clean, understandable development environment before starting the main Python programming phase.
 
-## Covered in the Current Cycle
+## Covered and Validated
 
 - terminal and current-directory basics
 - path vs PATH
@@ -19,7 +22,7 @@ Build a clean, understandable development environment before starting the main P
 - VS Code Python interpreter selection
 - debugger fundamentals
 - local Git fundamentals
-- GitHub remote workflow: clone, origin, push, and remote verification
+- GitHub remote workflow: clone, origin, fetch, pull, commit, push, and remote verification
 
 ## Current Local Workspace
 
@@ -37,13 +40,18 @@ D:\ai-engineering\00-engineering-environment
 
 Local-only artifacts such as `.venv/`, generated metadata, and machine-specific editor state must not be committed.
 
-## Still Required Before PASSED
+## Mastery Gate Notes
 
-- final Phase 0 review
-- mastery gate at or above 90%
-- clean up any identified weak areas
-- record final evidence
+Final score: **91/100**.
+
+Corrections to retain:
+
+- create a venv with `python -m venv .venv`
+- `origin` is the conventional short name for the configured remote repository
+- `git add` moves selected changes into the staging area
+- distinguish a concrete filesystem `path` from the executable-search `PATH`
+- reinforce module/package terminology during later Python work
 
 ## Completion Rule
 
-This phase must not be marked `PASSED` until the mastery gate is completed.
+The required evidence was present and the mastery gate exceeded the 90% threshold, so Phase 0 is complete.
