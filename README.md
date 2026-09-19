@@ -1,237 +1,151 @@
 # AI Engineering Journey 🚀
 
-## About
+This repository is the canonical learning ledger for a structured transition from engineering fundamentals to production-oriented AI Engineering.
 
-This repository documents my journey from Python fundamentals to production-oriented AI Engineering.
+The repository is managed around one rule:
 
-Python is maintained as the programming foundation, while AI Engineering notes track LLMs, APIs, local models, RAG, fine-tuning, agentic AI, tooling, and production concepts.
+> A topic is not considered mastered because it was read, watched, or practiced once. It is marked `PASSED` only after the required mastery gate is completed.
+
+## Canonical Learning Model
+
+Learning progresses in dependency order:
+
+```text
+Engineering Environment
+        ↓
+Python
+        ↓
+Git & GitHub
+        ↓
+Linux
+        ↓
+SQL / PostgreSQL
+        ↓
+Software Engineering
+        ↓
+APIs / HTTP
+        ↓
+Data Foundations
+        ↓
+Machine Learning
+        ↓
+Deep Learning
+        ↓
+Transformers
+        ↓
+LLM Engineering
+        ↓
+RAG
+        ↓
+Agents
+        ↓
+Evaluation / Observability
+        ↓
+Serving / MLOps
+        ↓
+Portfolio / Production Projects
+```
+
+The detailed roadmap is maintained outside this repository by the mentor workflow. This repository stores verified learning artifacts, exercises, tests, projects, and progress evidence.
 
 ## Repository Structure
 
 ```text
 ai-engineering-journey/
+├── README.md
+├── LEARNING_SYSTEM.md
+├── PROGRESS.md
 ├── .env.example
 ├── .gitignore
-├── notes/
-│   ├── ai/
-│   │   ├── 01-AI-Engineering-Foundations.md
-│   │   └── 02-AI-Engineering-AZ.md
-│   ├── python/
-│   │   ├── 01-Python-OOP.md
-│   │   ├── 02-Python-Data-Types.md
-│   │   ├── 03-Python-Built-in-Functions.md
-│   │   ├── 04-PEP8.md
-│   │   ├── 05-Functions.md
-│   │   ├── 06-Expressions-vs-Statements.md
-│   │   ├── 07-Import.md
-│   │   ├── 08-Complex.md
-│   │   ├── 09-Magic-Methods-and-OOP-Basics.md
-│   │   ├── 10-Booleans.md
-│   │   ├── 11-Type-Conversion.md
-│   │   ├── 12-Lists.md
-│   │   ├── 13-Dictionaries.md
-│   │   ├── 14-Tuples.md
-│   │   ├── 15-Sets.md
-│   │   ├── 16-Range.md
-│   │   ├── 17-Zip.md
-│   │   └── 18-Object-Mutation-and-Copying.md
-│   └── git/
-│       └── 01-Git-Fundamentals.md
-└── README.md
+│
+├── phases/
+│   └── 00-engineering-environment/
+│       └── README.md
+│
+├── exercises/
+│   └── README.md
+├── tests/
+│   └── README.md
+├── projects/
+│   └── README.md
+│
+└── notes/
+    ├── README.md
+    ├── ai/
+    ├── git/
+    └── python/
 ```
 
-## Learning Progress
+## Current Status
 
-### Git
-- [x] Git Fundamentals
-- [x] GitHub SSH Setup
-- [x] Git Workflow
-
-### Python Fundamentals
-- [x] Variables
-- [x] Integers
-- [x] Floats
-- [x] Complex Numbers
-- [x] Strings
-- [x] Booleans
-- [x] Truthy and Falsy Values
-- [x] Lists
-- [x] List Indexing and References
-- [x] Dictionaries
-- [x] Dictionary Access, Update, Removal and Copy
-- [x] Tuples
-- [x] Tuple Indexing, Immutability and References
-- [x] Sets
-- [x] Set Uniqueness and Non-Indexed Behavior
-- [x] Set `add()` and `update()`
-- [x] Set `remove()`, `discard()`, and `pop()`
-- [x] Set `union()` and `intersection()`
-- [x] Set `difference()` and `symmetric_difference()`
-- [x] Basic Method Signature Reading and Positional-Only `/`
-- [x] Range
-- [x] Range `start`, `stop`, and `step`
-- [x] Range Indexing and Immutability
-- [x] Positive and Negative Range Steps
-- [x] `zip()`
-- [x] `zip()` with Multiple Iterables
-- [x] `zip()` Shortest-Iterable Behavior
-- [x] `zip` Object and Iterator Exhaustion
-- [x] Object References and Mutation
-- [x] Mutable Object Behavior
-- [x] Shallow Copy
-- [x] Deep Copy
-- [x] Nested Mutable Objects and Shared References
-- [x] Type Conversion
-- [x] Built-in Functions
-- [x] PEP 8 Basics
-- [x] Functions, Parameters and `return`
-- [x] `pass` and Implicit `None`
-- [x] Passing Immutable Objects to Functions
-- [x] Passing Mutable Objects to Functions
-- [x] Mutation vs Reassignment in Functions
-- [x] Protecting External Mutable Objects with `copy()`
-- [x] Object Identity with `id()`
-- [x] Positional Arguments
-- [x] Keyword Arguments
-- [x] Variable Positional Arguments with `*args`
-- [x] Variable Keyword Arguments with `**kwargs`
-- [x] Combining Normal Parameters, `*args`, and `**kwargs`
-- [x] Expressions and Statements
-- [x] Imports and Modules Basics
-- [x] f-Strings Basics
-
-### Python OOP
-- [x] OOP Basics
-- [x] Classes and Objects
-- [x] Attributes and Methods
-- [x] `self`
-- [x] `__init__()`
-- [x] Magic Methods Basics
-
-### AI Engineering — Covered So Far
-- [x] LLM Basics
-- [x] Cloud LLM vs Local LLM
-- [x] Ollama Basics
-- [x] Model Parameters and Size
-- [x] Frontier and Open Models — Introduction
-- [x] Reasoning Models — Introduction
-- [x] RAG — Introduction
-- [x] RAG vs Fine-Tuning
-- [x] Agentic AI — Introduction
-- [x] AI Engineering Course Tracks
-- [x] Development Environment Basics
-- [x] Git Clone and Project Root
-- [x] Cursor / IDE Basics
-- [x] Markdown and README Preview
-- [x] Cursor Integrated Terminal
-- [x] Python Environments and Dependencies
-- [x] `uv`, `.venv`, and `uv sync`
-- [x] OpenAI API and API Key Basics
-- [x] ChatGPT Billing vs API Billing
-- [x] `.env` and Secret Management
-- [x] Python and Jupyter Cursor Extensions
-- [x] Jupyter Notebook, Cells, and Kernel
-- [x] `.venv` as Jupyter Kernel
-- [x] OpenAI Message Structure — List of Dictionaries
-- [x] System Prompt vs User Prompt
-- [x] f-String Prompt Construction
-- [x] Web Scraping and BeautifulSoup
-- [x] Local LLM Workflow with Ollama
-- [x] OpenAI-Compatible Local API Client
-- [x] First Successful Local LLM Call from Python
-- [x] LLM Response Handling
-- [x] Jupyter Module Reload and Kernel State
-- [x] Layer-by-Layer API/TLS Troubleshooting
-- [x] Documentation-First Troubleshooting
-- [x] First LLM Project — Web Page Summarizer
-- [x] Custom LLM Business Task from Scratch
-- [x] Email Subject Generator with System/User Prompts
-- [x] Reusing the Same LLM Architecture Across Business Tasks
-
-## Notes
-
-### AI Engineering
-- [AI Engineering Foundations](notes/ai/01-AI-Engineering-Foundations.md)
-- [AI Engineering — Azərbaycan dilində](notes/ai/02-AI-Engineering-AZ.md)
-
-### Python
-- [Python OOP](notes/python/01-Python-OOP.md)
-- [Python Data Types](notes/python/02-Python-Data-Types.md)
-- [Python Built-in Functions](notes/python/03-Python-Built-in-Functions.md)
-- [PEP 8](notes/python/04-PEP8.md)
-- [Python Functions](notes/python/05-Functions.md)
-- [Expressions vs Statements](notes/python/06-Expressions-vs-Statements.md)
-- [Imports and Modules](notes/python/07-Import.md)
-- [Complex Numbers](notes/python/08-Complex.md)
-- [Magic Methods and OOP Basics](notes/python/09-Magic-Methods-and-OOP-Basics.md)
-- [Python Booleans](notes/python/10-Booleans.md)
-- [Python Type Conversion](notes/python/11-Type-Conversion.md)
-- [Python Lists](notes/python/12-Lists.md)
-- [Python Dictionaries](notes/python/13-Dictionaries.md)
-- [Python Tuples](notes/python/14-Tuples.md)
-- [Python Sets](notes/python/15-Sets.md)
-- [Python Range](notes/python/16-Range.md)
-- [Python zip](notes/python/17-Zip.md)
-- [Python Object Mutation and Copying](notes/python/18-Object-Mutation-and-Copying.md)
-
-### Git
-- [Git Fundamentals](notes/git/01-Git-Fundamentals.md)
-
-## Current Goal
-
-Build production-level AI Engineering skills while continuously strengthening the Python foundation required to build reliable AI systems.
-
-## Current Topic
-
-- Python function arguments completed: positional arguments, keyword arguments, `*args`, and `**kwargs`
-- Python fundamentals continue using the existing learning workflow
-- AI Engineering environment setup completed
-- First LLM Project — Web Page Summarizer completed
-- Local LLM execution with Ollama completed
-- Day 1 custom business LLM exercise completed with an email subject generator
-- Current AI concepts: web scraping, prompt construction, reusable message architecture, local inference, response handling, and adapting one LLM pattern to multiple business tasks
-
-## Upcoming Topics
-
-### Python
-- List Methods
-- Dictionary Methods
-- Tuple Methods
-- Practical OOP Exercises
-- Comparison Operators
-- Conditional Statements
-- Loops
-- Modules
-- File Handling
-- Exception Handling
-- Advanced OOP
-
-### AI Engineering
-- Day 2 — LLM Engineering Roadmap and Frontier Models
-- Deeper Ollama / Local Model Usage
-- Frontier Models
-- Transformers Intuition
-- RAG
-- Fine-Tuning
-- Agentic AI
-- Production Deployment
-
-## Repository Safety
-
-- Real API keys and secrets belong in a local `.env` file and must never be committed.
-- `.env`, `.venv`, Python cache files, and Jupyter checkpoints are ignored by Git through `.gitignore`.
-- `.env.example` documents the required environment-variable names without containing real secrets.
-- Environment-specific security infrastructure details should not be committed to learning notes; document only general troubleshooting lessons.
-- When a new secret or local-only artifact is introduced, `.gitignore` must be reviewed before committing.
-
-## Documentation Rule
-
-Future updates follow this structure:
+Current canonical phase:
 
 ```text
-Python topic → notes/python/
-AI Engineering topic → notes/ai/
-Git topic → notes/git/
+PHASE 0 — Engineering Environment
+Status: IN_PROGRESS
 ```
 
-AI Engineering updates continue to maintain both the technical notes and the detailed Azerbaijani explanation file in parallel.
+Topics already practiced in the current mentorship cycle include:
+
+- terminal and path basics
+- Python installation and interpreter checks
+- virtual environments
+- `pip`, dependencies, `requirements.txt`, and basic `pyproject.toml`
+- Python object/reference basics
+- VS Code interpreter selection
+- debugger basics: breakpoint, Step Over, Step Into, Step Out, Continue
+- local Git initialization, staging, diff, commits, and status
+
+These items are recorded as practiced, not automatically as phase-level `PASSED`.
+
+See [PROGRESS.md](PROGRESS.md) for the canonical status.
+
+## Legacy Notes
+
+The existing files under `notes/` are retained because they contain useful historical learning material.
+
+They are **reference material**, not proof of current mastery.
+
+A checkbox or completed topic in an older note does not override the current mastery-gate system. See [notes/README.md](notes/README.md).
+
+## Evidence Policy
+
+A topic may be supported by one or more of:
+
+- explanation in the learner's own words
+- practical exercise
+- debugging task
+- test or quiz
+- mini project
+- code review
+- Git history
+
+The final status is governed by [LEARNING_SYSTEM.md](LEARNING_SYSTEM.md).
+
+## Secret Management
+
+Never commit real secrets.
+
+- real API keys belong in a local `.env`
+- `.env` is ignored by Git
+- `.env.example` documents required variable names only
+- virtual environments and generated Python artifacts are ignored
+- internal or sensitive security-environment details must not be committed
+
+## Git Workflow
+
+Typical learning update:
+
+```bash
+git status
+git diff
+git add <files>
+git commit -m "docs: document verified topic"
+git push
+```
+
+Repository changes should reflect actual learning evidence rather than inflated progress.
+
+## Goal
+
+Build strong enough foundations to design, implement, debug, evaluate, and operate real AI systems rather than only reproduce tutorials.
