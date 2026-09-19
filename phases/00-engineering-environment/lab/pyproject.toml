@@ -1,0 +1,9 @@
+[project]
+name = "engineering-environment"
+version = "0.1.0"
+description = "Phase 0 engineering environment practice"
+requires-python = ">=3.14"
+
+dependencies = [
+	"requests==2.34.2"
+]
