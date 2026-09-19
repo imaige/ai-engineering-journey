@@ -31,7 +31,7 @@ Last canonical state: **PHASE 0 — Engineering Environment**
 | VS Code | Python extension, project interpreter and terminal integration configured | VERIFIED |
 | Debugger | breakpoint, Continue, Step Over, Step Into, Step Out practiced | VERIFIED |
 | Local Git | init, status, add, diff, staged diff, commit and log practiced | PRACTICED |
-| GitHub remote workflow | not yet validated in the current mentorship cycle | PENDING |
+| GitHub remote workflow | clone, origin verification, local commit, push to `origin/main`, remote verification completed | VERIFIED |
 | Phase 0 mastery gate | not yet completed | PENDING |
 
 ## Rule
