@@ -19,10 +19,17 @@ Build a clean, understandable development environment before starting the main P
 - VS Code Python interpreter selection
 - debugger fundamentals
 - local Git fundamentals
+- GitHub remote workflow: clone, origin, push, and remote verification
 
 ## Current Local Workspace
 
-The active local practice workspace is:
+Canonical repository:
+
+```text
+D:\ai-engineering\ai-engineering-journey
+```
+
+The earlier practice workspace is retained temporarily as source material:
 
 ```text
 D:\ai-engineering\00-engineering-environment
@@ -32,7 +39,6 @@ Local-only artifacts such as `.venv/`, generated metadata, and machine-specific 
 
 ## Still Required Before PASSED
 
-- validate GitHub remote workflow in the current cycle
 - final Phase 0 review
 - mastery gate at or above 90%
 - clean up any identified weak areas
