@@ -1,13 +1,13 @@
 # Canonical Progress Tracker
 
-Last canonical state: **PHASE 0 — Engineering Environment PASSED**
+Last canonical state: **PHASE 1 — Python Programming IN_PROGRESS**
 
 ## Phase Status
 
 | Phase | Topic | Status |
 |---|---|---|
 | 0 | Engineering Environment | PASSED |
-| 1 | Python Programming | NOT_STARTED |
+| 1 | Python Programming | IN_PROGRESS |
 | 2 | Git & GitHub | NOT_STARTED |
 | 3 | Linux | NOT_STARTED |
 | 4 | SQL / PostgreSQL | NOT_STARTED |
@@ -34,15 +34,13 @@ Last canonical state: **PHASE 0 — Engineering Environment PASSED**
 | GitHub remote workflow | clone, origin verification, fetch, pull, local commit, push to `origin/main`, remote verification completed | VERIFIED |
 | Phase 0 mastery gate | 91/100 on 2026-09-20 | PASSED |
 
-## Review Notes
+## Phase 1 Current State
 
-Weak points identified during the gate and corrected during review:
+Status: **IN_PROGRESS**
 
-- exact virtual-environment creation command is `python -m venv .venv`
-- `origin` is the conventional short name for the configured remote repository
-- `git add` stages changes, it does not modify the source file
-- `path` is a concrete filesystem location, while `PATH` is an executable-search directory list
-- module/package terminology needs continued repetition
+Current focus: Python execution model, expressions/statements, names/objects/types, operators, control flow, collections, functions, modules, exceptions, files, OOP, typing, testing, debugging and practical problem solving.
+
+Existing historical Python notes remain reference material only. Each area must be revalidated through current-cycle practice and mastery checks.
 
 ## Rule
 
