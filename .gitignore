@@ -8,15 +8,33 @@
 venv/
 env/
 
-# Python cache and build artifacts
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Python package/build artifacts
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Test / type / lint caches
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local editor / IDE state
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
 
 # OS metadata
 .DS_Store
